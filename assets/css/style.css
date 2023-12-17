@@ -1,0 +1,89 @@
+/* Globales*/
+:root {
+    --light: #F8F9FA;
+    --white: #fff;
+    --success:#28a745;
+    --location-color:#707070;
+    --medium-l:300;
+    --medium-m:500;
+
+}
+
+
+.container-fluid{
+    flex-wrap: nowrap;
+}
+
+.tarjetas {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color:#FFFFFF;
+    margin-bottom: 10px;
+}
+
+.card-shadow {
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+}
+
+.card-body {
+    padding: 20px 15px;
+    text-align: justify;
+    height: 100%;
+
+}
+
+/* .card-img-top {
+    object-fit: cover;
+} */
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--medium-l);
+    height: 50%;
+    width: 100%;
+}
+
+.fa-solid{
+    color:var(--location-color) ;
+    font-weight: var(--medium-l);
+}
+
+.location-texto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.valor {
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--medium-m);
+}
+
+.form-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--medium-m);
+}
+
+input {
+    border:#DDDDDD;
+    border: 1px;
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--medium-l);;
+    color: #707070;
+    border:#DDDDDD;
+}
+
+.btn {
+    background-color: var(--light);
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--medium-m);
+}
+
+
